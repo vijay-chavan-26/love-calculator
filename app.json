@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "FirstApp",
+    "name": "LoveCalculator",
     "slug": "FirstApp",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -15,16 +15,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.madysore.lovecalculator"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.madysore.lovecalculator"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "715d868f-43e6-4ba6-a7ed-27fcf2671fae"
+      }
     }
   }
 }
